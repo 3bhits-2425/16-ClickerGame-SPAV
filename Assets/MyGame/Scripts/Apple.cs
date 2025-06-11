@@ -7,6 +7,7 @@ public class Apple : MonoBehaviour
     private void OnMouseDown()
     {
         clickerGame.IncreaseScore();
+        Debug.Log("Apple clicked! Score increased.");
         Destroy(gameObject);
     }
 }

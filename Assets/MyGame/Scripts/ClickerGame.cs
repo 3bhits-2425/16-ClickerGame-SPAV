@@ -14,7 +14,7 @@ public class ClickerGame : MonoBehaviour
 
     void Start()
     {
-        LoadScore();
+        score = 0;
     }
 
     void Update()
